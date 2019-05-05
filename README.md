@@ -3,15 +3,15 @@ Autohotkey (windows) and Autokey (linux) configuration files for CapsLock remapp
 
 ## Features
 
-* Use `capslock + j/l/k/i` instead of arrow keys without moving your hand to the right
-* `capslock + h` as backspace
-* `capslock + a/d/s/w` as home/end, page up/page down
-* `capslock + [`, `capslock + ]` to decrease and increase sound volume
+* Use `capslock + j/l/k/i` instead of arrow keys without moving your hands from the default position
+* `capslock + h` as a backspace
+* `capslock + a/d/s/w` as home/end, page up/page down keys
+* `capslock + [`, `capslock + ]` to decrease and increase the sound volume
 
 ## On Linux
 
 This is tested on Ubuntu (gnome). 
-The Autokey configuration tool doesn't seem to work with CapsLock key directrly, so I had to map CapsLock to "additional Hyper" first:
+The Autokey configuration tool doesn't seem to work with CapsLock key directly, so I had to map CapsLock to "additional Hyper" first:
 * Tweaks -> keyboard & mouse -> additional layout options
 * Caps lock behavior
 * Make Caps Lock an additional Hyper
@@ -28,7 +28,7 @@ Then
 * Install [Autohotkey](https://www.autohotkey.com)
 * Execute `autohotkey/capslock.ahk`
 
-Add it to autoload:
+Add to autoload:
 * Win + R, `%appdata%\Microsoft\Windows\Start Menu\Programs\Startup`, enter
 * Right-click -> New -> Shortcut
 * Enter the full path to `capslock.ahk` file
